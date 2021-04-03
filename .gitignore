@@ -2,3 +2,4 @@ Lib/
 Include/
 Scripts/
 pyvenv.cfg
+Tests/
