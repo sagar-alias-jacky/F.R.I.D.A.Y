@@ -132,7 +132,7 @@ def GetWeather(city = "kochi"):
     
     try:
         wquery = "q=" + city
-        res=requests.get('http://api.openweathermap.org/data/2.5/weather?'+wquery+'&APPID=yourAPIkeyhere&units=metric')
+        res=requests.get('http://api.openweathermap.org/data/2.5/weather?'+wquery+'&APPID=6efd2ff32715ec6f8058f256c6535fec&units=metric')
         result = res.json()
         tempStr = "The temperature in " + city + " as of now is " + str(result["main"]["temp"]) + " degree celsius"
         tempStr2 = "But it may vary between " + str(result["main"]["temp_min"]) + " degree celsius" + " and " + str(result["main"]["temp_max"]) + " degree celsius"
