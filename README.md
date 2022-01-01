@@ -89,5 +89,3 @@ Solution: Check that all the hard coded paths in the py script are set correctly
    This should install it correctly.
 
 5. If you face any other errors there's a bunch of resources online to help you with it. (If you don't know where to start try https://stackoverflow.com/)
-
-PS: It will be kind if you could please link this repo if you are using the files in this project on any public forum. Cheers:)
